@@ -28,7 +28,7 @@ class RiotAPI(object):
                 params=args
                 )
             #print(response.url)
-            #print(response.json)
+            #print(response.json) - DEBUGGING
             return response.json()
             
     def get_summoner_by_name(self, name):
@@ -55,6 +55,7 @@ class RiotAPI(object):
 
 
 
+# VISUALS
 
 #class ddragon(object):
     #def __init__(self, patch=Consts.DDRAGON_PATCH['current_patch'], language=Consts.DDRAGON_LANGUAGE['english_uk']):

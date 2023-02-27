@@ -6,13 +6,12 @@ import riotAPIConsts as Consts
 
 #   RiotAPI class
 
-class RiotAPI(object):
 
+class RiotAPI(object):
 
     def __init__(self, api_key, region=Consts.REGIONS['europe_west']):
         self.api_key = api_key
         self.region = region
-
 
     def _request(self, api_url, params={}):
             args = {'api_key': self.api_key}

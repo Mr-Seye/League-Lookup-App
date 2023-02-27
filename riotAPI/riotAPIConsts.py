@@ -19,8 +19,13 @@ URL = {
     'ddragon': 'https://ddragon.leagueoflegends.com/cd/{patch}/data/{language}/',
     'champion_info': 'champion.json'
 }
-#This is the base URL for any API address on the Riot API, it uses HTTP Secure, followed by a proxy in this case "EUW1", then the api link, then /lol which specifies that it is referring to League of Legends then {url} which is derived from riotAPI
-#Essentially a module which referres to summoner information based on summoner name
+#  This is the base URL for any API address on the Riot API, it uses HTTP
+#  Secure, followed by a proxy in this case "EUW1", then the api link,
+#  then /lol which specifies that it is referring to League of Legends
+#  then {url} which is derived from riotAPI
+
+#  Essentially a module which referres to summoner information based on
+#  summoner name
 
 API_VERSIONS = { 
     'champion-mastery': '4',
@@ -35,15 +40,19 @@ API_VERSIONS = {
     
 }
 
+#  Current patch for data dragon
+
 DDRAGON_PATCH = {
     'current_patch': '9.24.2'
 }
+
+#  Desired data dragon language
 
 DDRAGON_LANGUAGE = {
     'english_uk': 'en_GB'
 }
 
-#This is a list of the appropriate module versions
+#  This is a list of the appropriate module versions
 
 REGIONS = { 
     'brazil': 'br1',
@@ -60,11 +69,10 @@ REGIONS = {
 
 }
 
-#The codes for the modules being used
+#  The codes for the modules being used
+#  This is not required as of now
 
 PROXIES = { 
     'europe_west': 'euw1',
     'north_america': 'na1'
 }
-
-#This is not required as of now

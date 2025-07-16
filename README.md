@@ -47,7 +47,7 @@ Originally written for **Season 9**, this project may require API updates due to
 ```bash
 python riotAPIMain.py
 ```
-⚠️ You must have a valid Riot Games API key to use this application.
+⚠️ You must have a valid [Riot Games API](https://developer.riotgames.com/) key to use this application.
 
 ---
 
